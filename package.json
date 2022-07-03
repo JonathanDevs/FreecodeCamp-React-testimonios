@@ -2,6 +2,7 @@
   "name": "testimonios-freecodecamp",
   "version": "0.1.0",
   "private": true,
+  "home": "https://JonathanDevs.github.io/FreecodeCamp-React-testimonios/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -16,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build -r https://$GH_TOKENgithub.com/JonathanDevs/FreecodeCamp-React-testimonios/"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,8 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "homepage": "https://JonathanDevs.github.io/FreecodeCamp-React-testimonios/"
-    
+    "gh-pages": "^4.0.0"
   }
 }
