@@ -33,3 +33,20 @@ h1{
   justify-content: center;
   text-align: center;
 }
+.bold {
+  font-weight: bold;
+
+}
+
+@media only screen and (max-width: 980px){
+  .contenedor-texto-testimonio{
+    padding: 25px;
+  }
+  .contenedor-testimonio{
+    flex-wrap: wrap;
+    height: auto!important;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+  }
+}
